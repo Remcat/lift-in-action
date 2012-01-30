@@ -1,0 +1,27 @@
+*lift is org.lifty lifty 1.6.1
+lift create project-blank
+reload
+update
+jetty
+update
+reload
+update
+reload
+jetty
+jetty-run
+quit
+jetty
+jetty-run
+update
+reload
+jetty
+reload
+update
+jetty
+update
+reload
+jetty
+exit
+update
+jetty
+quit

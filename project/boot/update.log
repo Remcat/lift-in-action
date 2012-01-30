@@ -1,0 +1,558 @@
+setting 'ivy.default.settings.dir' to 'jar:file:/usr/local/bin/sbt-launch.jar!/org/apache/ivy/core/settings'
+setting 'ivy.basedir' to '/home/Ramy/lift-app/.'
+setting 'ivy.default.conf.dir' to 'jar:file:/usr/local/bin/sbt-launch.jar!/org/apache/ivy/core/settings'
+impossible to define new type: class not found: org.apache.ivy.plugins.version.PatternVersionMatcher in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.trigger.LogTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VsftpResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.conflict.RegexpConflictManager in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SshResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.signer.bouncycastle.OpenPGPSignatureGenerator in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SFTPResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.packager.PackagerResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntCallTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.IvyRepResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntBuildTrigger in [] nor Ivy classloader
+impossible to define glob matcher: org.apache.ivy.plugins.matcher.GlobPatternMatcher was not found.
+setting 'java.runtime.name' to 'OpenJDK Runtime Environment'
+setting 'sun.boot.library.path' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386'
+setting 'java.vm.version' to '14.0-b16'
+setting 'java.vm.vendor' to 'Sun Microsystems Inc.'
+setting 'java.vendor.url' to 'http://java.sun.com/'
+setting 'path.separator' to ':'
+setting 'java.vm.name' to 'OpenJDK Server VM'
+setting 'file.encoding.pkg' to 'sun.io'
+setting 'sun.java.launcher' to 'SUN_STANDARD'
+setting 'user.country' to 'US'
+setting 'sun.os.patch.level' to 'unknown'
+setting 'java.vm.specification.name' to 'Java Virtual Machine Specification'
+setting 'user.dir' to '/home/Ramy/lift-app'
+setting 'java.runtime.version' to '1.6.0_17-b17'
+setting 'java.awt.graphicsenv' to 'sun.awt.X11GraphicsEnvironment'
+setting 'java.endorsed.dirs' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/endorsed'
+setting 'os.arch' to 'i386'
+setting 'java.io.tmpdir' to '/tmp'
+setting 'line.separator' to '
+'
+setting 'java.vm.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'os.name' to 'Linux'
+setting 'sun.jnu.encoding' to 'ANSI_X3.4-1968'
+setting 'java.library.path' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib'
+setting 'java.specification.name' to 'Java Platform API Specification'
+setting 'java.class.version' to '50.0'
+setting 'sun.management.compiler' to 'HotSpot Tiered Compilers'
+setting 'os.version' to '2.6.32-71.29.1.el6.i686'
+setting 'user.home' to '/root'
+setting 'user.timezone' to 'America/New_York'
+setting 'java.awt.printerjob' to 'sun.print.PSPrinterJob'
+setting 'file.encoding' to 'ANSI_X3.4-1968'
+setting 'java.specification.version' to '1.6'
+setting 'java.class.path' to '/usr/local//bin/sbt-launch.jar'
+setting 'user.name' to 'root'
+setting 'java.vm.specification.version' to '1.0'
+setting 'java.home' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre'
+setting 'sun.arch.data.model' to '32'
+setting 'user.language' to 'en'
+setting 'java.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'java.vm.info' to 'mixed mode'
+setting 'java.version' to '1.6.0_17'
+setting 'java.ext.dirs' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/ext:/usr/java/packages/lib/ext'
+setting 'sun.boot.class.path' to '/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/resources.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rt.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jsse.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jce.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/charsets.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rhino.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/classes'
+setting 'java.vendor' to 'Sun Microsystems Inc.'
+setting 'file.separator' to '/'
+setting 'java.vendor.url.bug' to 'http://java.sun.com/cgi-bin/bugreport.cgi'
+setting 'sun.io.unicode.encoding' to 'UnicodeLittle'
+setting 'sun.cpu.endian' to 'little'
+setting 'sun.cpu.isalist' to ''
+setting 'ivy.default.ivy.user.dir' to '/root/.ivy2'
+setting 'ivy.home' to '/root/.ivy2'
+no default ivy user dir defined: set to /root/.ivy2
+setting 'ivy.cache.dir' to '/root/.ivy2/cache'
+no default cache defined: set to /root/.ivy2/cache
+setting 'ivy.basedir' to '/home/Ramy/lift-app/project/boot'
+setting 'basedir' to '/home/Ramy/lift-app/project/boot'
+setting 'scala' to '2.8.0'
+:: resolving dependencies :: org.scala-tools.sbt#boot-scala;1.0
+	confs: [default]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'default'
+== resolving dependencies for org.scala-tools.sbt#boot-scala;1.0 [default]
+loadData of org.scala-tools.sbt#boot-scala;1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.8.0 [default->default]
+loadData of org.scala-lang#scala-compiler;2.8.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-compiler;2.8.0
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-compiler;2.8.0 {default=[default, optional(default)]}
+redefined-public: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+redefined-public: no latest strategy defined: using default
+local: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+	 trying /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+		tried /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+	local: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+	 trying /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	local: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	local: no ivy file nor artifact found for org.scala-lang#scala-compiler;2.8.0
+Maven2 Local: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+	 trying file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+		tried file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+	Maven2 Local: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+	 trying file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-lang#scala-compiler;2.8.0
+sbt-db: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+	 trying http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+	sbt-db: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/ivys/ivy.xml
+	 trying http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	sbt-db: no ivy file nor artifact found for org.scala-lang#scala-compiler;2.8.0
+Maven Central: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+	Maven Central: found md file for org.scala-lang#scala-compiler;2.8.0
+		=> http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom (2.8.0)
+	parser = pom parser
+	no ivy file in cache for org.scala-lang#scala-compiler;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml
+downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom
+		to /root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml.original.part
+	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.8.0!scala-compiler.pom(pom.original) (217ms)
+	 trying /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	local: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/jars/scala-compiler.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+	 trying /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+	local: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-sources.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-sources.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-sources.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/sources/scala-compiler-sources.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-sources.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-sources.jar
+source artifact found for org.scala-lang#scala-compiler;2.8.0
+	 trying /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+	local: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-compiler;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-compiler/2.8.0/javadocs/scala-compiler-javadoc.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+	Maven Central: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+Scala-Tools Maven2 Repository: no namespace defined: using system
+	 trying http://scala-tools.org/repo-releases/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+		tried http://scala-tools.org/repo-releases/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=http://scala-tools.org/repo-releases/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+Scala-Tools Maven2 Snapshots Repository: no namespace defined: using system
+	 trying http://scala-tools.org/repo-snapshots/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for org/scala-lang#scala-compiler;2.8.0: res=http://scala-tools.org/repo-snapshots/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0-javadoc.jar
+no javadoc artifact found for org.scala-lang#scala-compiler;2.8.0
+	default-cache: parsed downloaded md file for org.scala-lang#scala-compiler;2.8.0; parsed=org.scala-lang#scala-compiler;2.8.0
+	checking org.scala-lang#scala-compiler;2.8.0 from Maven Central against [none]
+	module revision kept as first found: org.scala-lang#scala-compiler;2.8.0 from Maven Central
+	found org.scala-lang#scala-compiler;2.8.0 in Maven Central
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.8.0 [default->runtime]
+loadData of org.scala-lang#scala-compiler;2.8.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.8.0 [default->compile]
+loadData of org.scala-lang#scala-compiler;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-library;2.8.0
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-library;2.8.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+	 trying /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+		tried /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+	local: resource not reachable for org.scala-lang#scala-library;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+	 trying /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	local: resource not reachable for org.scala-lang#scala-library;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	local: no ivy file nor artifact found for org.scala-lang#scala-library;2.8.0
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+	 trying file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+		tried file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+	Maven2 Local: resource not reachable for org/scala-lang#scala-library;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+	 trying file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-library;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-lang#scala-library;2.8.0
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+	 trying http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+	sbt-db: resource not reachable for org.scala-lang#scala-library;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/ivys/ivy.xml
+	 trying http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-library;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	sbt-db: no ivy file nor artifact found for org.scala-lang#scala-library;2.8.0
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+	Maven Central: found md file for org.scala-lang#scala-library;2.8.0
+		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom (2.8.0)
+	parser = pom parser
+	no ivy file in cache for org.scala-lang#scala-library;2.8.0: tried /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml
+downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom
+		to /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml.original.part
+	[SUCCESSFUL ] org.scala-lang#scala-library;2.8.0!scala-library.pom(pom.original) (209ms)
+	 trying /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	local: resource not reachable for org.scala-lang#scala-library;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-library;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-library;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/jars/scala-library.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+	 trying /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+	local: resource not reachable for org.scala-lang#scala-library;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-sources.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-sources.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-library;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-sources.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-library;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/sources/scala-library-sources.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-sources.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-sources.jar
+source artifact found for org.scala-lang#scala-library;2.8.0
+	 trying /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+		tried /root/.ivy2/local/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+	local: resource not reachable for org.scala-lang#scala-library;2.8.0: res=/root/.ivy2/local/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+	 trying file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-javadoc.jar
+		tried file:///root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-javadoc.jar
+	Maven2 Local: resource not reachable for org/scala-lang#scala-library;2.8.0: res=file:/root/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-javadoc.jar
+	 trying http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+		tried http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+	sbt-db: resource not reachable for org.scala-lang#scala-library;2.8.0: res=http://databinder.net/repo/org.scala-lang/scala-library/2.8.0/javadocs/scala-library-javadoc.jar
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-javadoc.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0-javadoc.jar
+javadoc artifact found for org.scala-lang#scala-library;2.8.0
+	default-cache: parsed downloaded md file for org.scala-lang#scala-library;2.8.0; parsed=org.scala-lang#scala-library;2.8.0
+	checking org.scala-lang#scala-library;2.8.0 from Maven Central against [none]
+	module revision kept as first found: org.scala-lang#scala-library;2.8.0 from Maven Central
+	found org.scala-lang#scala-library;2.8.0 in Maven Central
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->default]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->runtime]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->compile]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [compile->master]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->org.scala-lang#scala-library;2.8.0 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.8.0 [default->master]
+loadData of org.scala-lang#scala-compiler;2.8.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.8.0 [default->optional(default)]
+loadData of org.scala-lang#scala-compiler;2.8.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->jline#jline;0.9.91 [optional->master(*)]
+loadData of jline#jline;0.9.91 of rootConf=default
+	using redefined-public to resolve jline#jline;0.9.91
+redefined-public: Checking cache for: dependency: jline#jline;0.9.91 {optional=[compile(*), master(*)]}
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+	 trying /root/.ivy2/local/jline/jline/0.9.91/ivys/ivy.xml
+		tried /root/.ivy2/local/jline/jline/0.9.91/ivys/ivy.xml
+	local: resource not reachable for jline#jline;0.9.91: res=/root/.ivy2/local/jline/jline/0.9.91/ivys/ivy.xml
+	 trying /root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+		tried /root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+	local: resource not reachable for jline#jline;0.9.91: res=/root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+	local: no ivy file nor artifact found for jline#jline;0.9.91
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+	 trying file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.pom
+		tried file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.pom
+	Maven2 Local: resource not reachable for jline#jline;0.9.91: res=file:/root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.pom
+	 trying file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+		tried file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.91: res=file:/root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+	Maven2 Local: no ivy file nor artifact found for jline#jline;0.9.91
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+	 trying http://databinder.net/repo/jline/jline/0.9.91/ivys/ivy.xml
+		tried http://databinder.net/repo/jline/jline/0.9.91/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.91/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.91/ivys/ivy.xml
+	sbt-db: resource not reachable for jline#jline;0.9.91: res=http://databinder.net/repo/jline/jline/0.9.91/ivys/ivy.xml
+	 trying http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+		tried http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+	sbt-db: resource not reachable for jline#jline;0.9.91: res=http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+	sbt-db: no ivy file nor artifact found for jline#jline;0.9.91
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom
+	Maven Central: found md file for jline#jline;0.9.91
+		=> http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom (0.9.91)
+	parser = pom parser
+	no ivy file in cache for jline#jline;0.9.91: tried /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml
+downloading http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom
+		to /root/.ivy2/cache/jline/jline/ivy-0.9.91.xml.original.part
+	[SUCCESSFUL ] jline#jline;0.9.91!jline.pom(pom.original) (278ms)
+	 trying /root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+		tried /root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+	local: resource not reachable for jline#jline;0.9.91: res=/root/.ivy2/local/jline/jline/0.9.91/jars/jline.jar
+	 trying file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+		tried file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.91: res=file:/root/.m2/repository/jline/jline/0.9.91/jline-0.9.91.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+		tried http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+	sbt-db: resource not reachable for jline#jline;0.9.91: res=http://databinder.net/repo/jline/jline/0.9.91/jars/jline.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar
+	 trying /root/.ivy2/local/jline/jline/0.9.91/sources/jline-sources.jar
+		tried /root/.ivy2/local/jline/jline/0.9.91/sources/jline-sources.jar
+	local: resource not reachable for jline#jline;0.9.91: res=/root/.ivy2/local/jline/jline/0.9.91/sources/jline-sources.jar
+	 trying file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-sources.jar
+		tried file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-sources.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.91: res=file:/root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-sources.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.91/sources/jline-sources.jar
+		tried http://databinder.net/repo/jline/jline/0.9.91/sources/jline-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.91/sources/jline-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.91/sources/jline-sources.jar
+	sbt-db: resource not reachable for jline#jline;0.9.91: res=http://databinder.net/repo/jline/jline/0.9.91/sources/jline-sources.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-sources.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-sources.jar
+source artifact found for jline#jline;0.9.91
+	 trying /root/.ivy2/local/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+		tried /root/.ivy2/local/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+	local: resource not reachable for jline#jline;0.9.91: res=/root/.ivy2/local/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+	 trying file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+		tried file:///root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.91: res=file:/root/.m2/repository/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+		tried http://databinder.net/repo/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+	sbt-db: resource not reachable for jline#jline;0.9.91: res=http://databinder.net/repo/jline/jline/0.9.91/javadocs/jline-javadoc.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	Maven Central: resource not reachable for jline#jline;0.9.91: res=http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	 trying http://scala-tools.org/repo-releases/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+		tried http://scala-tools.org/repo-releases/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for jline#jline;0.9.91: res=http://scala-tools.org/repo-releases/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	 trying http://scala-tools.org/repo-snapshots/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for jline#jline;0.9.91: res=http://scala-tools.org/repo-snapshots/jline/jline/0.9.91/jline-0.9.91-javadoc.jar
+no javadoc artifact found for jline#jline;0.9.91
+	default-cache: parsed downloaded md file for jline#jline;0.9.91; parsed=jline#jline;0.9.91
+	checking jline#jline;0.9.91 from Maven Central against [none]
+	module revision kept as first found: jline#jline;0.9.91 from Maven Central
+	found jline#jline;0.9.91 in Maven Central
+== resolving dependencies org.scala-lang#scala-compiler;2.8.0->jline#jline;0.9.91 [optional->compile(*)]
+loadData of jline#jline;0.9.91 of rootConf=default
+== resolving dependencies jline#jline;0.9.91->junit#junit;3.8.1 [compile->master(*)]
+loadData of junit#junit;3.8.1 of rootConf=default
+	using redefined-public to resolve junit#junit;3.8.1
+redefined-public: Checking cache for: dependency: junit#junit;3.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+	no ivy file in cache for junit#junit;3.8.1: tried /root/.ivy2/cache/junit/junit/ivy-3.8.1.xml
+	no ivy file in cache for junit#junit;3.8.1: tried /root/.ivy2/cache/junit/junit/ivy-3.8.1.xml
+	 trying /root/.ivy2/local/junit/junit/3.8.1/ivys/ivy.xml
+		tried /root/.ivy2/local/junit/junit/3.8.1/ivys/ivy.xml
+	local: resource not reachable for junit#junit;3.8.1: res=/root/.ivy2/local/junit/junit/3.8.1/ivys/ivy.xml
+	 trying /root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+		tried /root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+	local: resource not reachable for junit#junit;3.8.1: res=/root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+	local: no ivy file nor artifact found for junit#junit;3.8.1
+	no ivy file in cache for junit#junit;3.8.1: tried /root/.ivy2/cache/junit/junit/ivy-3.8.1.xml
+	 trying file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom
+		tried file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom
+	Maven2 Local: found md file for junit#junit;3.8.1
+		=> file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom (3.8.1)
+	parser = pom parser
+	no ivy file in cache for junit#junit;3.8.1: tried /root/.ivy2/cache/junit/junit/ivy-3.8.1.xml
+downloading file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom ...
+	Maven2 Local: downloading file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom
+		to /root/.ivy2/cache/junit/junit/ivy-3.8.1.xml.original.part
+	[SUCCESSFUL ] junit#junit;3.8.1!junit.pom(pom.original) (6ms)
+	 trying /root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+		tried /root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+	local: resource not reachable for junit#junit;3.8.1: res=/root/.ivy2/local/junit/junit/3.8.1/jars/junit.jar
+	 trying file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+		tried file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+	 trying /root/.ivy2/local/junit/junit/3.8.1/sources/junit-sources.jar
+		tried /root/.ivy2/local/junit/junit/3.8.1/sources/junit-sources.jar
+	local: resource not reachable for junit#junit;3.8.1: res=/root/.ivy2/local/junit/junit/3.8.1/sources/junit-sources.jar
+	 trying file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar
+		tried file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar
+	Maven2 Local: resource not reachable for junit#junit;3.8.1: res=file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar
+	 trying http://databinder.net/repo/junit/junit/3.8.1/sources/junit-sources.jar
+		tried http://databinder.net/repo/junit/junit/3.8.1/sources/junit-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/junit/junit/3.8.1/sources/junit-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/junit/junit/3.8.1/sources/junit-sources.jar
+	sbt-db: resource not reachable for junit#junit;3.8.1: res=http://databinder.net/repo/junit/junit/3.8.1/sources/junit-sources.jar
+	 trying http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+		tried http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+source artifact found for junit#junit;3.8.1
+	 trying /root/.ivy2/local/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+		tried /root/.ivy2/local/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+	local: resource not reachable for junit#junit;3.8.1: res=/root/.ivy2/local/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+	 trying file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+		tried file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	Maven2 Local: resource not reachable for junit#junit;3.8.1: res=file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	 trying http://databinder.net/repo/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+		tried http://databinder.net/repo/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+	sbt-db: resource not reachable for junit#junit;3.8.1: res=http://databinder.net/repo/junit/junit/3.8.1/javadocs/junit-javadoc.jar
+	 trying http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+		tried http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	Maven Central: resource not reachable for junit#junit;3.8.1: res=http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	 trying http://scala-tools.org/repo-releases/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+		tried http://scala-tools.org/repo-releases/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for junit#junit;3.8.1: res=http://scala-tools.org/repo-releases/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	 trying http://scala-tools.org/repo-snapshots/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for junit#junit;3.8.1: res=http://scala-tools.org/repo-snapshots/junit/junit/3.8.1/junit-3.8.1-javadoc.jar
+no javadoc artifact found for junit#junit;3.8.1
+	default-cache: parsed downloaded md file for junit#junit;3.8.1; parsed=junit#junit;3.8.1
+	checking junit#junit;3.8.1 from Maven2 Local against [none]
+	module revision kept as first found: junit#junit;3.8.1 from Maven2 Local
+	found junit#junit;3.8.1 in Maven2 Local
+== resolving dependencies jline#jline;0.9.91->junit#junit;3.8.1 [compile->compile(*)]
+loadData of junit#junit;3.8.1 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-library;2.8.0 [default->default]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-library;2.8.0 [default->runtime]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-library;2.8.0 [default->compile]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#boot-scala;1.0->org.scala-lang#scala-library;2.8.0 [default->master]
+loadData of org.scala-lang#scala-library;2.8.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+Nbr of module to sort : 4
+Sort dependencies of : org.scala-lang#scala-compiler;2.8.0 / Number of dependencies = 2
+Sort dependencies of : org.scala-lang#scala-library;2.8.0 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.8.0
+Sort dependencies of : jline#jline;0.9.91 / Number of dependencies = 1
+Sort dependencies of : junit#junit;3.8.1 / Number of dependencies = 0
+Sort done for : junit#junit;3.8.1
+Sort done for : jline#jline;0.9.91
+Sort done for : org.scala-lang#scala-compiler;2.8.0
+Module descriptor is processed : org.scala-lang#scala-library;2.8.0
+Module descriptor is processed : jline#jline;0.9.91
+Module descriptor is processed : junit#junit;3.8.1
+	resolved ivy file produced in /root/.ivy2/cache/resolved-org.scala-tools.sbt-boot-scala-1.0.xml
+:: downloading artifacts ::
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar
+		to /root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.8.0.jar.part
+	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.8.0!scala-compiler.jar (6720ms)
+	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+		to /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.8.0.jar.part
+	[SUCCESSFUL ] org.scala-lang#scala-library;2.8.0!scala-library.jar (4461ms)
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar
+downloading http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar
+		to /root/.ivy2/cache/jline/jline/jars/jline-0.9.91.jar.part
+	[SUCCESSFUL ] jline#jline;0.9.91!jline.jar (298ms)
+	 trying file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+		tried file:///root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+downloading file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar ...
+	Maven2 Local: downloading file:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+		to /root/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar.part
+	[SUCCESSFUL ] junit#junit;3.8.1!junit.jar (35ms)
+:: resolution report :: resolve 4990ms :: artifacts dl 11522ms
+Nbr of module to sort : 4
+Sort dependencies of : org.scala-lang#scala-compiler;2.8.0 / Number of dependencies = 2
+Sort dependencies of : org.scala-lang#scala-library;2.8.0 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.8.0
+Sort dependencies of : jline#jline;0.9.91 / Number of dependencies = 1
+Sort dependencies of : junit#junit;3.8.1 / Number of dependencies = 0
+Sort done for : junit#junit;3.8.1
+Sort done for : jline#jline;0.9.91
+Sort done for : org.scala-lang#scala-compiler;2.8.0
+Module descriptor is processed : org.scala-lang#scala-library;2.8.0
+Module descriptor is processed : jline#jline;0.9.91
+Module descriptor is processed : junit#junit;3.8.1
+	report for org.scala-tools.sbt#boot-scala;1.0 default produced in /root/.ivy2/cache/org.scala-tools.sbt-boot-scala-default.xml
+	resolve done (4990ms resolve - 11522ms download)
+:: retrieving :: org.scala-tools.sbt#boot-scala
+	checkUpToDate=true
+no explicit confs given for retrieve, using ivy file: /root/.ivy2/cache/resolved-org.scala-tools.sbt-boot-scala-1.0.xml
+using ivy parser to parse /root/.ivy2/cache/resolved-org.scala-tools.sbt-boot-scala-1.0.xml
+post 1.3 ivy file: using exact as default matcher
+	confs: [default]
+	retrieving /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.8.0.jar
+		to /home/Ramy/lift-app/project/boot/scala-2.8.0/lib/scala-library.jar
+	retrieving /root/.ivy2/cache/jline/jline/jars/jline-0.9.91.jar
+		to /home/Ramy/lift-app/project/boot/scala-2.8.0/lib/jline.jar
+	retrieving /root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.8.0.jar
+		to /home/Ramy/lift-app/project/boot/scala-2.8.0/lib/scala-compiler.jar
+	retrieving /root/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar
+		to /home/Ramy/lift-app/project/boot/scala-2.8.0/lib/junit.jar
+	4 artifacts copied, 0 already retrieved (14662kB/59ms)
+	retrieve done (59ms)
