@@ -14,7 +14,8 @@ class LiftProject(info: ProjectInfo) extends DefaultWebProject(info) {
   val servlet   = "javax.servlet" % "servlet-api" % "2.5" % "provided->default"
   val jetty6    = "org.mortbay.jetty" % "jetty" % "6.1.22" % "test->default"  
   val junit     = "junit" % "junit" % "4.5" % "test->default"
-  val specs     = "org.scala-tools.testing" %% "specs" % "1.6.6" % "test->default"
+  //val specs     = "org.scala-tools.testing" %% "specs" % "1.6.6" % "test->default"
+  val mapper = "net.liftweb" %% "lift-mapper" % liftVersion
   
   /**
    * Maven repositories

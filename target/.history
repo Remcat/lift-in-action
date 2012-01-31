@@ -25,3 +25,26 @@ exit
 update
 jetty
 quit
+update
+jetty
+.
+quit
+reload
+update
+jetty
+reload
+update
+jetty
+lift create mapper Supplier
+reload
+update
+jetty
+update
+jetty
+update
+reload
+update
+jetty
+reload
+update
+jetty

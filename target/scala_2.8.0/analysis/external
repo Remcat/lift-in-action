@@ -1,0 +1,6 @@
+#External Dependencies
+#Mon Jan 30 20:20:36 EST 2012
+/home/Ramy/lift-app/lib_managed/scala_2.8.0/compile/lift-util_2.8.0-2.1.jar=src/main/scala/bootstrap/liftweb/Boot.scala
+/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rt.jar=src/main/scala/bootstrap/liftweb/Boot.scala
+/home/Ramy/lift-app/lib_managed/scala_2.8.0/compile/lift-webkit_2.8.0-2.1.jar=src/main/scala/bootstrap/liftweb/Boot.scala
+/home/Ramy/lift-app/project/boot/scala-2.8.0/lib/scala-library.jar=src/main/scala/bootstrap/liftweb/Boot.scala
