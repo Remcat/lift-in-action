@@ -30,7 +30,7 @@ object Customer extends Customer
         </lift:with-param>
       </lift:surround>
     )
- 
+
 }
 class Customer extends MegaProtoUser[Customer] with CreatedUpdated {
   def getSingleton = Customer

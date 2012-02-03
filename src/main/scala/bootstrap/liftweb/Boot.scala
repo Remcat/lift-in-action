@@ -12,41 +12,48 @@ import manning.model.{Auction,Supplier,Customer,Bid,Order,OrderAuction}
 
 class Boot {
   def boot {
+    
+    LiftRules.addToPackages("example.travel")
+    
+    MapperRules.columnName = (_,name) => StringHelpers.snakify(name)
+    MapperRules.tableName =  (_,name) => StringHelpers.snakify(name)
+    
+    // set the JNDI name that we'll be using
+    DefaultConnectionIdentifier.jndiName = "jdbc/liftinaction"
+    
     // handle JNDI not being avalible
     if (!DB.jndiJdbcConnAvailable_?){
-      //logger.warn("No JNDI configured - making a direct application connection") 
+    //  logger.warn("No JNDI configured - making a direct application connection") 
       DB.defineConnectionManager(DefaultConnectionIdentifier, Database)
       // make sure cyote unloads database connections before shutting down
       LiftRules.unloadHooks.append(() => Database.closeAllConnections_!()) 
     }
-
-    S.addAround(DB.buildLoanWrapper)
-
-    val sitemap = List(
-      Menu("Home") / "index",
-      Menu("Search") / "search",
-      Menu("History") / "history"
-    ) ::: Customer.menus
-  
-    // where to search snippet
-    LiftRules.addToPackages("manning")
-
-    // build sitemap
-    val entries = List(Menu("Home") / "index") :::
-                  Nil
     
+    // automatically create the tables
+    Schemifier.schemify(true, Schemifier.infoF _, 
+      Bid, Auction, Supplier, Customer, Order, OrderAuction)
+    
+    // setup the 404 handler 
     LiftRules.uriNotFound.prepend(NamedPF("404handler"){
-      case (req,failure) => NotFoundAsTemplate(
-        ParsePath(List("exceptions","404"),"html",false,false))
+      case (req,failure) => NotFoundAsTemplate(ParsePath(List("404"),"html",false,false))
     })
     
-    LiftRules.setSiteMap(SiteMap(sitemap:_*))
+    LiftRules.setSiteMap(SiteMap(List(
+      Menu("Home") / "index" >> LocGroup("public"),
+      Menu("Auctions") / "auctions" >> LocGroup("public"),
+      Menu("Auction Detail") / "auction" >> LocGroup("public") >> Hidden,
+      Menu("Admin") / "admin" / "index" >> LocGroup("admin"),
+      Menu("Suppliers") / "admin" / "suppliers" >> LocGroup("admin") submenus(Supplier.menus : _*),
+      Menu("Auction Admin") / "admin" / "auctions" >> LocGroup("admin") submenus(Auction.menus : _*)
+    ) ::: Customer.menus: _*))
     
-    // set character encoding
+    // setup the load pattern
+    S.addAround(DB.buildLoanWrapper)
+    
+    // make requests utf-8
     LiftRules.early.append(_.setCharacterEncoding("UTF-8"))
-    
-    Schemifier.schemify(true, Schemifier.infoF _, Auction, Bid, Customer, Order, OrderAuction, Supplier) 
   }
+  
   object Database extends StandardDBVendor(
     Props.get("db.class").openOr("org.h2.Driver"),
     Props.get("db.url").openOr("jdbc:h2:database/temp"),

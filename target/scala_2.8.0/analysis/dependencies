@@ -1,9 +1,10 @@
 #Source Dependencies
-#Fri Feb 03 11:25:27 EST 2012
+#Fri Feb 03 18:08:32 EST 2012
 src/main/scala/manning/model/OrderAuction.scala=src/main/scala/manning/model/Order.scala\:src/main/scala/bootstrap/liftweb/Boot.scala
 src/main/scala/manning/model/Order.scala=src/main/scala/manning/model/OrderAuction.scala\:src/main/scala/bootstrap/liftweb/Boot.scala
 src/main/scala/manning/model/Auction.scala=src/main/scala/manning/model/Supplier.scala\:src/main/scala/manning/model/Bid.scala\:src/main/scala/bootstrap/liftweb/Boot.scala
 src/main/scala/bootstrap/liftweb/Boot.scala=
 src/main/scala/manning/model/Bid.scala=src/main/scala/manning/model/Auction.scala\:src/main/scala/bootstrap/liftweb/Boot.scala
+src/main/scala/manning/snippet/HelloWorld.scala=
 src/main/scala/manning/model/Supplier.scala=src/main/scala/manning/model/Auction.scala\:src/main/scala/bootstrap/liftweb/Boot.scala
 src/main/scala/manning/model/Customer.scala=src/main/scala/manning/model/Bid.scala\:src/main/scala/manning/model/Order.scala\:src/main/scala/bootstrap/liftweb/Boot.scala

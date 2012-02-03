@@ -1,9 +1,10 @@
 #Source Hashes
-#Fri Feb 03 11:25:27 EST 2012
+#Fri Feb 03 18:08:32 EST 2012
 src/main/scala/manning/model/OrderAuction.scala=8c0a5828ebb347749a33ba49d0968fbe46b5a057
 src/main/scala/manning/model/Order.scala=7c0279e74ab078317a6ea73bb54b21f6fed777bc
 src/main/scala/manning/model/Auction.scala=a097411972b1e08efd2bfc86eafc22ade2f7eb2e
-src/main/scala/bootstrap/liftweb/Boot.scala=5df4b23666e7bf510a2636b2e03b0ddc594ad537
+src/main/scala/bootstrap/liftweb/Boot.scala=63c2eaa24da0bbcd1cc2415bf3792c2684b24421
 src/main/scala/manning/model/Bid.scala=dcfaa5110d550d420405d6e54731ad6f78ebed01
-src/main/scala/manning/model/Supplier.scala=80a27be7ce330b2f8c44eca9d66d250eb3ea6687
-src/main/scala/manning/model/Customer.scala=1a71c78a4768f370806ad559918c30363c2677c3
+src/main/scala/manning/snippet/HelloWorld.scala=952edd1db727513ecf8a7a59700de825b3b32b59
+src/main/scala/manning/model/Supplier.scala=627504166cd82a5794cf4158b44ca0c919c142ec
+src/main/scala/manning/model/Customer.scala=77ec2281aca88bbd7ba720364a392e0daf92e0a1
