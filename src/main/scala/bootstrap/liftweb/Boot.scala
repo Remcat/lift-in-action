@@ -1,17 +1,24 @@
 package bootstrap.liftweb
 
-import net.liftweb._
-import net.liftweb.mapper.{DB,DefaultConnectionIdentifier}
-import net.liftweb.http.{LiftRules, S}
-import http.{LiftRules, NotFoundAsTemplate, ParsePath}
-import sitemap.{SiteMap, Menu, Loc}
-import util.{ NamedPF }
+import net.liftweb.common._
+import net.liftweb.util._
+import net.liftweb.util.Helpers._
+import net.liftweb.http._
+import net.liftweb.sitemap._
+import net.liftweb.sitemap.Loc._
+import net.liftweb.mapper.{DB,Schemifier,DefaultConnectionIdentifier,StandardDBVendor,MapperRules}
 
+import manning.model.{Auction,Supplier,Customer,Bid,Order,OrderAuction}
 
 class Boot {
   def boot {
-    DB.defineConnectionManager(DefaultConnectionIdentifier, DBVendor)
-    LiftRules.unloadHooks.append( () => DBVendor.closeAllConnections_!() )
+    // handle JNDI not being avalible
+    if (!DB.jndiJdbcConnAvailable_?){
+      //logger.warn("No JNDI configured - making a direct application connection") 
+      DB.defineConnectionManager(DefaultConnectionIdentifier, Database)
+      // make sure cyote unloads database connections before shutting down
+      LiftRules.unloadHooks.append(() => Database.closeAllConnections_!()) 
+    }
 
     S.addAround(DB.buildLoanWrapper)
 

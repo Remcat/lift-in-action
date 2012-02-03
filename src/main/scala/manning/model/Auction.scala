@@ -1,4 +1,4 @@
-package example.travel.model 
+package manning.model 
 
 import net.liftweb.common.{Full,Box,Empty,Failure}
 import net.liftweb.sitemap.Loc._
